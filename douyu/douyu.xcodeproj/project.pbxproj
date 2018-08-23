@@ -13,11 +13,11 @@
 		B825A621212DB8B0006FBDA8 /* douyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825A620212DB8B0006FBDA8 /* douyuTests.swift */; };
 		B825A62C212DB8B0006FBDA8 /* douyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825A62B212DB8B0006FBDA8 /* douyuUITests.swift */; };
 		B8B14094212F008D00689C3B /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B14093212F008D00689C3B /* Live.storyboard */; };
-		B8B1409E212F044F00689C3B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B1409D212F044F00689C3B /* MainViewController.swift */; };
 		B8F7D44E212F0E9100D06609 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7D44D212F0E9100D06609 /* Follow.storyboard */; };
 		B8F7D453212F0EF400D06609 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7D452212F0EF400D06609 /* Home.storyboard */; };
 		B8F7D455212F0F1300D06609 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7D454212F0F1300D06609 /* Profile.storyboard */; };
-		B8F7D457212F0F3800D06609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7D456212F0F3800D06609 /* Main.storyboard */; };
+		B8F7D460212F109700D06609 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7D45C212F109600D06609 /* MainViewController.swift */; };
+		B8F7D461212F109700D06609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7D45D212F109600D06609 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +50,11 @@
 		B825A62B212DB8B0006FBDA8 /* douyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = douyuUITests.swift; sourceTree = "<group>"; };
 		B825A62D212DB8B0006FBDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8B14093212F008D00689C3B /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
-		B8B1409D212F044F00689C3B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B8F7D44D212F0E9100D06609 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
 		B8F7D452212F0EF400D06609 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		B8F7D454212F0F1300D06609 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
-		B8F7D456212F0F3800D06609 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B8F7D45C212F109600D06609 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B8F7D45D212F109600D06609 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +148,9 @@
 		B8B14065212EF37900689C3B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				B8F7D452212F0EF400D06609 /* Home.storyboard */,
+				B8F7D458212F100700D06609 /* Controller */,
+				B8F7D459212F100700D06609 /* Model */,
+				B8F7D45A212F100700D06609 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -187,10 +189,56 @@
 		B8B1406A212EF37900689C3B /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				B8F7D456212F0F3800D06609 /* Main.storyboard */,
-				B8B1409D212F044F00689C3B /* MainViewController.swift */,
+				B8F7D45B212F109600D06609 /* Controller */,
+				B8F7D45E212F109600D06609 /* Model */,
+				B8F7D45F212F109600D06609 /* View */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B8F7D458212F100700D06609 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7D452212F0EF400D06609 /* Home.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8F7D459212F100700D06609 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8F7D45A212F100700D06609 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8F7D45B212F109600D06609 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7D45C212F109600D06609 /* MainViewController.swift */,
+				B8F7D45D212F109600D06609 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8F7D45E212F109600D06609 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8F7D45F212F109600D06609 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,9 +345,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8F7D457212F0F3800D06609 /* Main.storyboard in Resources */,
 				B8F7D453212F0EF400D06609 /* Home.storyboard in Resources */,
 				B825A616212DB8B0006FBDA8 /* LaunchScreen.storyboard in Resources */,
+				B8F7D461212F109700D06609 /* Main.storyboard in Resources */,
 				B825A613212DB8B0006FBDA8 /* Assets.xcassets in Resources */,
 				B8F7D44E212F0E9100D06609 /* Follow.storyboard in Resources */,
 				B8F7D455212F0F1300D06609 /* Profile.storyboard in Resources */,
@@ -329,7 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B825A60C212DB8AE006FBDA8 /* AppDelegate.swift in Sources */,
-				B8B1409E212F044F00689C3B /* MainViewController.swift in Sources */,
+				B8F7D460212F109700D06609 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
