@@ -17,6 +17,7 @@
 		B8B14094212F008D00689C3B /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B14093212F008D00689C3B /* Live.storyboard */; };
 		B8B14097212F00A800689C3B /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B14095212F00A800689C3B /* Follow.storyboard */; };
 		B8B1409A212F00EC00689C3B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B14098212F00EC00689C3B /* Profile.storyboard */; };
+		B8B1409E212F044F00689C3B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B1409D212F044F00689C3B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B8B14093212F008D00689C3B /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		B8B14096212F00A800689C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = douyu/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
 		B8B14099212F00EC00689C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = douyu/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		B8B1409D212F044F00689C3B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				B825A60F212DB8AE006FBDA8 /* Main.storyboard */,
+				B8B1409D212F044F00689C3B /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B825A60C212DB8AE006FBDA8 /* AppDelegate.swift in Sources */,
+				B8B1409E212F044F00689C3B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
