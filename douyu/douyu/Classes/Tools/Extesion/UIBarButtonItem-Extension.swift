@@ -6,4 +6,21 @@
 //  Copyright © 2018年 周会勤. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIBarButtonItem {
+    convenience init(imageName: String, hightImageName: String = "", size: CGSize = CGSize.zero) {
+        let btn = UIButton()
+        
+        btn.setImage(UIImage(named: imageName), for: .normal)
+        if hightImageName != "" {
+            btn.setImage(UIImage(named: hightImageName), for: .highlighted)
+        }
+        if size == CGSize.zero {
+            btn.sizeToFit()
+        } else {
+            btn.frame = CGRect(origin: CGPoint.zero, size: size)
+        }
+        self.init(customView:btn)
+    }
+}
