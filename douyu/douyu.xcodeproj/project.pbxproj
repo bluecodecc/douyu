@@ -17,6 +17,7 @@
 		B835BEEA2132F2E3007AA976 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B835BEE92132F2E3007AA976 /* UIBarButtonItem-Extension.swift */; };
 		B835BEEC2132FC7A007AA976 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B835BEEB2132FC7A007AA976 /* PageTitleView.swift */; };
 		B835BEEE2132FEFB007AA976 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B835BEED2132FEFB007AA976 /* Common.swift */; };
+		B84FA8BF21401ADA00F5AEC6 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84FA8BE21401ADA00F5AEC6 /* RecommendViewController.swift */; };
 		B8AD9B50213047C700138183 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AD9B4F213047C700138183 /* HomeViewController.swift */; };
 		B8B14094212F008D00689C3B /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B14093212F008D00689C3B /* Live.storyboard */; };
 		B8F7D44E212F0E9100D06609 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7D44D212F0E9100D06609 /* Follow.storyboard */; };
@@ -60,6 +61,7 @@
 		B835BEE92132F2E3007AA976 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		B835BEEB2132FC7A007AA976 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		B835BEED2132FEFB007AA976 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		B84FA8BE21401ADA00F5AEC6 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		B8AD9B4F213047C700138183 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B8B14093212F008D00689C3B /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		B8F7D44D212F0E9100D06609 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 			children = (
 				B8F7D452212F0EF400D06609 /* Home.storyboard */,
 				B8AD9B4F213047C700138183 /* HomeViewController.swift */,
+				B84FA8BE21401ADA00F5AEC6 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 			files = (
 				B825A60C212DB8AE006FBDA8 /* AppDelegate.swift in Sources */,
 				B8070D0421344E5B004FA3DC /* UIColor-Extension.swift in Sources */,
+				B84FA8BF21401ADA00F5AEC6 /* RecommendViewController.swift in Sources */,
 				B8F7D460212F109700D06609 /* MainViewController.swift in Sources */,
 				B835BEEC2132FC7A007AA976 /* PageTitleView.swift in Sources */,
 				B8070D0221344B2B004FA3DC /* PageContentView.swift in Sources */,
